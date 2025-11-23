@@ -1,0 +1,22 @@
+1. (5 poena) Napisati deo koda za proveru unosa koji korisnik unosi putem serijske komunikacije i koji smešta unos u promenljivu novaSifra.
+Unos mora da počinje velikim slovom, da ima barem jedan broj, barem jednu tačku, barem jedan uzvičnik, i minimalnu dužinu od 8 karaktera. 
+Ispravnost unosa se čuva u promenljivoj correct, koja je true ukoliko su ispunjeni svi uslovi i false ukoliko nisu. Ukoliko korisnik ne unese ispravan unos obezbediti mu mogućnost za ponovni unos.
+
+2. (15 poena) Sistem za navodnjavanje poseduje dva potenciometra, jednim se podešava vreme trajanja navodnjavanja, a drugim vreme između navodnjavanja. 
+Sistem je realizovan korišćenjem Arduino Uno platforme. Funkcija za uključivanje navodnjavanja je void ukljuciNavodnjavanje(), a za isključivanje void iskljuciNavodnjavanje(). 
+Napisati loop() funkciju koja će na osnovu potenciometra da kontroliše sistem, ukoliko je poznato da trajanje navodnjavanja može da se zada u opsegu od 1 sekunde do 10 sekundi, a vreme između navodnjavanja se zadaje u opsegu od 1 minut do 10 minuta.
+Obezbediti da kontrola nema veće kašnjenje od 1 minuta.
+
+3. (15 poena) Realizovati sistem koji se zasniva na Arduino Nano platformi i koristi se za kontrolu ugla RC servo motora koji je povezan na 10. pin platforme. 
+Sistem poseduje pet tastera, povezanih na digitalne pinove od 0 do 4, koji se koriste za pomeranje izlazne osovine RC servo motora. Osovina može da se kreće u opsegu od -45 do 40 stepeni. 
+Napisati funkciju koja će se zvati kontrolaMotora i koja će da vrši kontrolu motora. U tabeli su date funkcije tastera.
+Taster 0: Smanji za 5 stepeni
+Taster 1: Smanji za 1 stepen
+Taster 2: Postavi u položaj 0 stepeni
+Taster 3: Povećaj za 1 stepen
+Taster 4: Povećaj za 10 stepeni
+
+4. (10 poena) Povezati sistem koji se zasniva na Arduino Uno platformi i koristi se za merenje i prikazivanje temperature. 
+Sistem koristi analogni senzor temperature koji na svom izlazu daje analogni napon u zavisnosti od temperature prema datoj formuli. 
+Temperatura se prikazuje na LCD ekranu. Funkcija za čitanje temperature je float readTemp(), i ona vraća temperaturu u stepenima celzijusa. 
+Napisati celokupnu loop() funkciju koja kontroliše ovaj sistem.
