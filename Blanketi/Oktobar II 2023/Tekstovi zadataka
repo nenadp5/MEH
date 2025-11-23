@@ -1,16 +1,16 @@
-1. (8 поена) Написати целу setup() функцију за систем који је реализован на Ардуино Дуе платформи. 
-Систем поседује један тастер чијим притиском се додељује изабрана боја рефлектору. 
-Систем само прослеђује информације о боји рефлектору путем серијске комуникације. Избор боје се врши путем потенциометра.
+1. (8 poena) Napisati celu setup() funkciju za sistem koji je realizovan na Arduino Due platformi. 
+Sistem poseduje jedan taster čijim pritiskom se dodeljuje izabrana boja reflektoru. 
+Sistem samo prosleđuje informacije o boji reflektoru putem serijske komunikacije. Izbor boje se vrši putem potenciometra.
 
-2. (8 поена) Написати функцију float izracunaj sumu(int k, int n) која израчунава следећи израз: suma(od i=2 do n) i*(k+2)
+2. (8 poena) Napisati funkciju float izracunaj sumu(int k, int n) koja izračunava sledeći izraz: suma(od i=2 do n) i*(k+2)
 
-3. (10 поена) Написати код за систем који чита тастере повезане на пинове 3 и 5. Притискањем тастера 5 смањује се вредност бројача, а притиском тастера 3 повећава се вредност бројача. 
-Бројач креће од 0 и не може да буде негативна вредност. Стање бројача се исписује путем серијске комуникације, али само када се стање промени.
+3. (10 poena) Napisati kod za sistem koji čita tastere povezane na pinove 3 i 5. Pritiskanjem tastera 5 smanjuje se vrednost brojača, a pritiskom tastera 3 povećava se vrednost brojača. 
+Brojač kreće od 0 i ne može da bude negativna vrednost. Stanje brojača se ispisuje putem serijske komunikacije, ali samo kada se stanje promeni.
 
-4. (10 поена) Написати програм, у Ардуино програмском језику, који тражи од корисника да унесе посебно координате Х и У. 
-Након унетих координата (сматрати да корисник увек унесе исправне целобројне координате), проверити да ли унете координате се налазе у низовима роѕХ и роѕу. 
-Уколико корисник унесе пар координата Х и У који је се налази у низу обавестите корисника да је остварио погодак, посматрати пар координата.
-Глобалне променљиве роѕХ и posY су дефинисане на следећи начин:
+4. (10 poena) Napisati program, u Arduino programskom jeziku, koji traži od korisnika da unese posebno koordinate X i U. 
+Nakon unetih koordinata (smatrati da korisnik uvek unese ispravne celobrojne koordinate), proveriti da li unete koordinate se nalaze u nizovima posX i posY. 
+Ukoliko korisnik unese par koordinata H i U koji je se nalazi u nizu obavestite korisnika da je ostvario pogodak, posmatrati par koordinata.
+Globalne promenljive posX i posY su definisane na sledeći način:
 int posX[10]={2,1,3,5,2,3,4,5,0,9}; 
 int posY[101 112,4,5,3,2,1,8,1,9};
 
