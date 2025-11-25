@@ -21,3 +21,5 @@ Sistem koristi analogni senzor temperature koji na svom izlazu daje analogni nap
 Temperatura se prikazuje na LCD ekranu. Funkcija za čitanje temperature je float readTemp(), i ona vraća temperaturu u stepenima celzijusa. 
 Napisati celokupnu loop() funkciju koja kontroliše ovaj sistem.
 Temperatura se racuna po formuli: temperature_u_stepenima=(napon_u_voltima/100)+13.54
+
+Prvi zadatak nema elektricnu semu, jer je u pitanju obican Arduino Uno.
