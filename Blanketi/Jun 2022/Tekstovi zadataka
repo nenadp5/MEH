@@ -1,0 +1,17 @@
+1. (8 poena) Napisati celu setup() funkciju za sledeći zadatak: Realizovati sistem koji putem 3 svetleće diode prikazuje binarni zapis brojača. 
+Brojač kreće od 0 i uz pomoć dva tastera se ili inkrementira ili dekrementira. Brojač je ciklični.
+
+2. (10 poena) Napisati for petlju koja utvrđuje koliko studenata je položilo ispit i koji je procenat uspešnosti. 
+Podaci o broju poena na ispitu su smešteni u nizovima pismeni u usmepі u vidu celobrojnih vrednosti od 0 do 50. 
+Smatra se da je student položio ispit ukoliko ima minimum 25 poena na usmenom i minimum 25 poena na pismenom delu ispita. 
+Nizovi mogu da imaju proizvoljan broj članova, ali imaju isti broj članova. 
+Broj studenata koji su položili smestiti kao ceo broj u promenljivu polozili, a uspešnost kao procenat sa decimalnom tačkom u promenljivu uspesnost.
+
+3. (8 poena) Napisati zasebnu funkciju koja vrši čitanje analognog senzora povezanog na pin A3 i vraća njegovu vrednost u zadatim jedinicama ukoliko se pretvaranje vrši sledećom formulom:
+y = x^(mv)-3-2*x(mv)^2
+
+4. (10 poena) Napisati deo programa koji od korisnika putem Serijske komunikacije traži da upiše numeričku vrednost u decimalnom zapisu sa dve cifre ispred i dve cifre nakon decimalne tačke. 
+Obezbediti proveru da je broj ispravan i smestiti ga u promenjivu pK ukoliko je on ispravan, ukoliko nije ispravan pK treba da bude 0.
+
+U ovom zadatku sema je prisutna samo u prvom zadatku, i to ukoliko zelite da odradite ceo sistem, a ne samo setup funkciju U ostalim slucajevima je prisutan samo Arduino Uno.
+Sto se tice poslednjeg zadatka, njega nije moguce realizovati putem Tinkercad simulatora.
