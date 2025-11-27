@@ -1,0 +1,19 @@
+1. (8 poena) Napisati celu setup() funkciju za Arduino program koji putem serijske komunikacije ispisuje trenutno stanje brojača. 
+Brojač se inkrementira pomoću tastera 1 vezanog na pin 7, a dekrementira pomoću tastera 2 veznog na pin 10.
+
+2. (10 poena) Napisati for petlju koja utvrđuje koliko studenata je položilo ispit i koji je procenat uspešnosti. 
+Podaci o broju poena na ispitu su smešteni u nizovima pismeni u usmenі u vidu celobrojnih vrednosti od 0 do 50. 
+Smatra se da je student položio ispit ukoliko ima minimum 25 poena na usmenom i minimum 25 poena na pismenom delu ispita. 
+Nizovi mogu da imaju proizvoljan broj članova, ali imaju isti broj članova. 
+Broj studenata koji su položili smestiti kao ceo broj u promenljivu polozili, a uspešnost kao procenat sa decimalnom tačkom u promenljivu uspesnost. 
+
+3. (12 poena) Napisati posebnu funkciju, proizvoljnog naziva, koja vraća percentil visine ukoliko joj se prosledi celobrojna visina u centimetrima. Percentil se računa po sledećoj formuli: P = n/N * 100
+pri čemu n predstavlja broj ljudi koji su niži od zadate vrednosti a N je ukupan broj ljudi u skupu.
+Možete koristiti funkciju int brojManjihodK(int K, int S[]), koja vraća broj vrednosti manjih od K u skupu S. Smatrati da je N = 10 000.
+
+4. (20 poena) Realizovati kompletan sistem, napisati kod i povezati šemu, zasnovan na Arduino Uno platformi koji poseduje jedan analogni senzor temperature, jedan potenciometar i kontroliše pumpu putem tranzistora. 
+Sistem treba da čita zadatu temperaturu sa potenciometra i da ukoliko je merena temperatura manja uključi pumpu. Ukoliko je merena temperatura veća ili jednaka zadatoj putem potenciometra sistem treba da isključi pumpu. 
+Potenciometrom se zadaje temperatura u opsegu od 0 do 25 stepeni, dok temperaturni senzor čita temperaturu od 0 do 40 stepeni.
+
+Što se tiče četvrtog zadatka, njegova šema je različita od one koja je prikazana na blanketu, jer u Tinkercad simulatoru nije moguce povezati šemu na dati način.
+Princip rada je isti. Drugi i treći zadatak nemaju šeme, jer su u pitanju samo obični Arduino Uno.
