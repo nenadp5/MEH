@@ -1,3 +1,8 @@
+/*
+Realizovati proces brojenja ljudi unutar jedne prostorije. Ova simulacije je poznata pod nazivom "Korona brojač" gde je bilo važno koliko se ljudi nalazi unutar prostorije.
+Prilikom pritiska odgovarajućeg tastera broj se povećava ili smanjuje. Kada dostigne maksimum, u našem slučaju 5, ispisuje se ZABRANJEN ULAZ i taj tekst treperi.
+*/
+
 #include <LiquidCrystal.h>        //određujemo bazu za LCD
 LiquidCrystal lcd(12,11,5,4,3,2); //definišemo obavezne pinove na LCD displeju
                                   //RS/E/DB4/DB5/DB6/DB7 pinovi po redu
